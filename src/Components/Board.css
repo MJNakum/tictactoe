@@ -1,0 +1,53 @@
+.bd {
+  background-color: beige;
+  height: 40em;
+}
+
+.ground {
+  height: 30rem;
+  text-align: center;
+}
+
+.holder {
+  height: auto;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  display: table-cell;
+  margin: 0 auto;
+  background-color: beige;
+  border-style: solid;
+}
+
+.fill-window {
+  height: 18%;
+  width: 50%;
+  z-index: 2;
+  margin: auto;
+  overflow: hidden;
+  background-color: black;
+  opacity: 70%;
+}
+
+.btn {
+  height: 50px;
+  width: 100px;
+  background-color: cyan;
+  color: black;
+  margin: 10px;
+  border-radius: 12px;
+  border: 3px;
+}
+
+.btn:hover {
+  background-color: rgb(156, 238, 238);
+}
+/* ! CHange hover to show current sign when hover over the button to show uuser which sign turn currently is. */
+
+.square:hover {
+  background-color: rgb(204, 204, 185);
+}
